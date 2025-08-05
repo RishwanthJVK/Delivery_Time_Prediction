@@ -40,7 +40,7 @@ This project applies various regression techniques to **predict delivery time** 
 - Analysed Duplicates
 - Handled Outliers
 - Handled Mistyped data
-- Encoded categorical variables (Label Encoding, One-Hot Encoding)
+- Encoded categorical variables (Ordinal Encoding, One-Hot Encoding)
 
 ---
 
