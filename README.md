@@ -26,21 +26,19 @@ The following regression models were tested:
 - Lasso regression
 - Polynomial regression
 
-Performance Metrics (R² Score):
-Model Variant	R² Score
-Simple Linear Regression	~0.3758
-Lasso regression ~0.3672
-Polynomial Regression (Degree = 4) ~0.6896
+Performance Metrics (R² Score):<br>
+Model Variant	R² Score<br>
+Simple Linear Regression	~0.3758<br>
+Lasso regression ~0.3672<br>
+Polynomial Regression (Degree = 4) ~0.6896<br>
 
-Key Findings
-There is a strong positive correlation between sorting time and delivery time.
+Key Findings<br>
 The initial model was underfitting and polynomial Regression of degree 4 significantly improves model performance, achieving the highest R² score (~0.689).
 
-Limitations and Next Steps
-Limitations:
+Limitations:<br>
 The model is able to explain only 68.96% of the variation, higher r2_score can be achieved by making more complex feature combinations.
 
-Technologies Used
+Technologies Used<br>
 - Python (NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, sklearn)
 - Jupyter Notebook
 
