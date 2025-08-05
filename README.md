@@ -1,45 +1,76 @@
 # Delivery Time Prediction – Regression Analysis
-This project applies various regression techniques to predict delivery time based on a real-world dataset. The goal is to identify the most effective model variant for accurate delivery time estimation and draw actionable insights for operational improvements.
 
-Data Summary<br>
-Data Source: Kaggle 
+This project applies various regression techniques to **predict delivery time** using a real-world dataset. The goal is to identify the most effective model for accurate estimation and draw actionable insights for operational improvements.
 
-Dataset Size: The dataset contains 43739 rows and 16 columns.
+---
 
-Features:
-Order_ID, Agent_Age, Agent_Rating, Store_Latitude, Store_Longitude, Drop_Latitude, 
-Drop_Longitude, Order_Date, Order_Time, Pickup_Time, Weather, Traffic, Vehicle, 
-Area, Category
+## Data Summary
 
-Target Variable:
-Delivery_Time 
+* **Data Source**: Kaggle
+* **Dataset Size**: 43,739 rows × 16 columns
 
+### Features
 
-Objective of the Analysis
-- To develop a prediction model for Delivery_Time using the above features.
-- Apply and compare various forms of regression to improve prediction accuracy.
-- Choose the best-performing model based on statistical metrics such as R² score.
+* `Order_ID`
+* `Agent_Age`
+* `Agent_Rating`
+* `Store_Latitude`, `Store_Longitude`
+* `Drop_Latitude`, `Drop_Longitude`
+* `Order_Date`, `Order_Time`, `Pickup_Time`
+* `Weather`, `Traffic`, `Vehicle`
+* `Area`, `Category`
 
-Model Comparison<br>
-The following regression models were tested:
-- Simple Linear Regression
-- Lasso regression
-- Polynomial regression
+### Target Variable
 
-Performance Metrics (R² Score):<br>
-Model Variant	R² Score<br>
-Simple Linear Regression	~0.3758<br>
-Lasso regression ~0.3672<br>
-Polynomial Regression (Degree = 4) ~0.6896<br>
+* `Delivery_Time`
 
-Key Findings<br>
-The initial model was underfitting and polynomial Regression of degree 4 significantly improves model performance, achieving the highest R² score (~0.689).
+---
 
-Limitations:<br>
-The model is able to explain only 68.96% of the variation, higher r2_score can be achieved by making more complex feature combinations.
+## Objective of the Analysis
 
-Technologies Used<br>
-- Python (NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, sklearn)
-- Jupyter Notebook
+* Develop a **prediction model** for `Delivery_Time` using the available features.
+* Apply and compare **multiple regression techniques** to improve prediction accuracy.
+* Select the **best-performing model** based on metrics such as **R² score**.
 
-                    # Project overview
+---
+
+## Model Comparison
+
+| Regression Model              | R² Score |
+| ----------------------------- | -------- |
+| Simple Linear Regression      | \~0.3758 |
+| Lasso Regression              | \~0.3672 |
+| Polynomial Regression (Deg=4) | \~0.6896 |
+
+---
+
+## Key Findings
+
+* The initial simple models showed signs of **underfitting**.
+* **Polynomial Regression (degree = 4)** significantly improved performance with an R² score of **\~0.6896**.
+* Indicates that non-linear relationships exist in the data that simpler models couldn't capture.
+
+---
+
+## Limitations
+
+* Although polynomial regression improved results, the model explains only **\~69%** of the variance.
+* Higher accuracy could be achieved by:
+
+  * Generating **more complex feature interactions**
+  * Applying **advanced models** (e.g., Gradient Boosting, Random Forests)
+  * Incorporating **time-series** and **external contextual data**
+
+---
+
+##  Technologies Used
+
+* **Languages**: Python
+* **Libraries**:
+
+  * `NumPy`, `Pandas`
+  * `Scikit-learn`
+  * `Matplotlib`, `Seaborn`
+* **Environment**: Jupyter Notebook
+
+---
