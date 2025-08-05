@@ -20,7 +20,7 @@ Objective of the Analysis
 - Apply and compare various forms of regression to improve prediction accuracy.
 - Choose the best-performing model based on statistical metrics such as R² score.
 
-Model Comparison
+Model Comparison<br>
 The following regression models were tested:
 - Simple Linear Regression
 - Lasso regression
