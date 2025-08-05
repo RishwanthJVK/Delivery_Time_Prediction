@@ -1,7 +1,7 @@
 # Delivery Time Prediction – Regression Analysis
 This project applies various regression techniques to predict delivery time based on a real-world dataset. The goal is to identify the most effective model variant for accurate delivery time estimation and draw actionable insights for operational improvements.
 
-Data Summary
+Data Summary<br>
 Data Source: Kaggle 
 
 Dataset Size: The dataset contains 43739 rows and 16 columns.
