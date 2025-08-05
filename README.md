@@ -34,6 +34,16 @@ This project applies various regression techniques to **predict delivery time** 
 
 ---
 
+##  Data Cleaning & Feature Engineering
+
+- Handled **missing values**
+- Analysed Duplicates
+- Handled Outliers
+- Handled Mistyped data
+- Encoded categorical variables (Label Encoding, One-Hot Encoding)
+
+---
+
 ## Model Comparison
 
 | Regression Model              | R² Score |
