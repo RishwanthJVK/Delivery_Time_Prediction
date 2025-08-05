@@ -55,11 +55,7 @@ This project applies various regression techniques to **predict delivery time** 
 ## Limitations
 
 * Although polynomial regression improved results, the model explains only **\~69%** of the variance.
-* Higher accuracy could be achieved by:
-
-  * Generating **more complex feature interactions**
-  * Applying **advanced models** (e.g., Gradient Boosting, Random Forests)
-  * Incorporating **time-series** and **external contextual data**
+* Higher accuracy could be achieved by generating more complex feature interactions
 
 ---
 
